@@ -1,0 +1,19 @@
+Full list of all known yt sub-domains to block:
+ sn-c0q7lnly 
+ sn-nv47lnly 
+ sn-uxaxh5ji-aw0l 
+ sn-c0q7lns7 
+ sn-4g5edns6 
+ sn-c0q7lnse 
+ sn-ntqe6nes 
+ sn-uxaxh5ji-aw0e 
+ sn-c0q7lnsl 
+ sn-4g5e6nle 
+ sn-8xgp1vo-xfgk 
+ sn-8xgp1vo-xfge7 
+ sn-p5qlsnll 
+ sn-a5mekner 
+ sn-vgqs7nez 
+ sn-vgqs7n7k sn-vgq
+ 
+ Note: applying all the above to pi-hole block list will pretty much stop your youtube videos form playing, try to relax the restriction until you are able to play most.
