@@ -65,10 +65,6 @@ sed -i -e 's/^/pihole -w -d /' $path"/yt2-blocks.txt"
 #sed -i -e 's/^/pihole -w /' $path"/yt1-blocks.txt"
 #sed -i -e 's/^/pihole -w /' $path"/yt2-blocks.txt"
 
-# This will delete domains
-#sed -i -e 's/^/pihole -d /' $path"/yt1-blocks.txt"
-#sed -i -e 's/^/pihole -d /' $path"/yt2-blocks.txt"
-
 #yt1=("/opt/scripts/bash/yt1-blocks.txt")
 #yt2=("/opt/scripts/bash/yt2-blocks.txt")
 
