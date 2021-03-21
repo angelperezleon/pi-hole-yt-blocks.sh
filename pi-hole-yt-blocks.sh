@@ -11,8 +11,10 @@ GZIP="/bin/gzip"
 path="/opt/scripts/bash"
 
 # dicovered yt googlecontent add subdomains
+# light list
 fingerprints=( sn-c0q7lnse sn-c0q7lns7 sn-c0q7lnly )
-#fingerprints=( sn-c0q7lnly sn-nv47lnly sn-uxaxh5ji-aw0l sn-c0q7lns7 sn-4g5edns6 sn-c0q7lnse sn-ntqe6nes sn-uxaxh5ji-aw0e sn-c0q7lnsl sn-4g5e6nle sn-8xgp1vo-xfgk sn-8xgp1vo-xfge7 sn-p5qlsnll sn-a5mekner sn-vgqs7nez sn-vgqs7n7k sn-vgq$
+# full list
+#fingerprints=( sn-c0q7lnly sn-nv47lnly sn-uxaxh5ji-aw0l sn-c0q7lns7 sn-4g5edns6 sn-c0q7lnse sn-ntqe6nes sn-uxaxh5ji-aw0e sn-c0q7lnsl sn-4g5e6nle sn-8xgp1vo-xfgk sn-8xgp1vo-xfge7 sn-p5qlsnll sn-a5mekner sn-vgqs7nez sn-vgqs7n7k sn-vgqsenes sn-8xgp1vo-xfgd sn-hp57kn7e sn-p5qlsnz6 sn-8xgp1vo-xfgr sn-aigllnze sn-4g57kn7e sn-4g5e6n7d sn-5hne6n7s sn-4g57knd7 )
 #var=$(cat filename)
 #var_array=(var)
 
