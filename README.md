@@ -33,7 +33,9 @@ Remix of below discussion:
 - [ ] Fix a ways to run to exec or combine all into one file when doing **exec bash $yt1** for example.
 
 **Troubleshooting**
+
 **Why does ads still apply even do I have done my new blocks?**
-_Maybe a case of restarting your pi-hole to flush/reload the changes through._
+- _Maybe a case of restarting your pi-hole to flush/reload the changes through._
+
 **I found new ad sub-domains to block**
-_You can apply these tot he finger print within the main script and run again to apply._
+- _You can apply these tot he finger print within the main script and run again to apply._
