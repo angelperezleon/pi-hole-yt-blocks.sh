@@ -1,4 +1,5 @@
 Full list of all known YT Ad sub-domains to block:
+
  sn-c0q7lnly 
  sn-nv47lnly 
  sn-uxaxh5ji-aw0l 
@@ -14,6 +15,16 @@ Full list of all known YT Ad sub-domains to block:
  sn-p5qlsnll 
  sn-a5mekner 
  sn-vgqs7nez 
- sn-vgqs7n7k sn-vgq
+ sn-vgqs7n7k
+ sn-vgqsenes 
+ sn-8xgp1vo-xfgd 
+ sn-hp57kn7e 
+ sn-p5qlsnz6 
+ sn-8xgp1vo-xfgr 
+ sn-aigllnze 
+ sn-4g57kn7e 
+ sn-4g5e6n7d 
+ sn-5hne6n7s 
+ sn-4g57knd7
  
  Note: applying all the above to pi-hole block list will pretty much stop your youtube videos form playing, try to relax the restriction until you are able to play most.
