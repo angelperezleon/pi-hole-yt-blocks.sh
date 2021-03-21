@@ -26,4 +26,4 @@ Remix of below discussion:
 **Todo**
 - [ ] add discovered subdomain into an array filename rather than have the values added into array
 - [ ] Make better function to add and 
-- [ ] Fix a ways to run to exec or combine all into one file when doing exec bash $yt1 for example.
+- [ ] Fix a ways to run to exec or combine all into one file when doing **exec bash $yt1** for example.
