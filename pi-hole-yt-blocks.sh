@@ -75,6 +75,7 @@ sed -i -e 's/^/pihole -w -d /' $path"/yt2-blocks.txt"
 #sed -n '1 p' | sh $yt2
 
 #Now import into pi-hole db all generated YT ads spam sub-domains
+#Uncomend one exec at a time to run
 #exec bash $yt1
 exec bash $yt2
 
