@@ -36,26 +36,15 @@ touch $yt2
 # For each fingerpint,
 #for i in "${fingerprints[@]}"; do
 for ((i = 0; i < "${#fingerprints[@]}"; i++)); do
-  # Generate the list based on https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/11?u=jacob.salmela
-  #echo r$((i+1))---${fingerprints[$i]}.googlevideo.com >>$yt1
-  echo r{1..20}---${fingerprints[$i]}.googlevideo.com >>$yt1
-  #echo r{1..20}---${fingerprints[$i]}.googlevideo.com >yt1-blocks.txt
-  #echo r$((i+1)).${fingerprints[$i]}.googlevideo.com >>$yt2
+  # Generate the list based on https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/11?u=jacob.salmela  
+  echo r{1..20}---${fingerprints[$i]}.googlevideo.com >>$yt1 
   echo r{1..20}.${fingerprints[$i]}.googlevideo.com >>$yt2
-  #echo r{1..20}.${fingerprints[$i]}.googlevideo.com >yt2-blocks.txt
 done
-
-# Add new line on each space after every phrase/word!
-#echo "/opt/scripts/bash/yt1-blocks.txt /opt/scripts/bash/yt2-blocks.txt"\ | tr " " "\n"
-#tr ' ' '\n' < "/opt/scripts/bash/yt1-blocks.txt" > "/opt/scripts/bash/yt1a-blocks.txt"
-#tr ' ' '\n' < "/opt/scripts/bash/yt2-blocks.txt" > "/opt/scripts/bash/yt2a-blocks.txt"
 
 #Pre-append at beging of each line 'pihole -b '
 #This will blacklist
 #sed -i -e 's/^/pihole -b /' $path"/yt1-blocks.txt"
 #sed -i -e 's/^/pihole -b /' $path"/yt2-blocks.txt"
-#old# sed -i -e 's/^/pihole -b /' "/opt/scripts/bash/yt1-blocks.txt"
-#old# sed -i -e 's/^/pihole -b /' "/opt/scripts/bash/yt2-blocks.txt"
 
 #Remove from whitelist
 sed -i -e 's/^/pihole -w -d /' $path"/yt1-blocks.txt"
