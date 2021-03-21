@@ -12,7 +12,7 @@ Remix of below discussion:
  
  **Installation**
 
- Use the main script (**pi-hole-yt-blocks.sh**) to block all or partially block Ads dislayed in YT (youtube)
+ Use the main script (**pi-hole-yt-blocks.sh**) to block all or partially block Ads displayed in YT (youtube)
  Save to any location in your *nix system that has permission to run under a cron job or system account:
  ```cd "/opt/scripts/bash"
  wget https://raw.githubusercontent.com/angelperezleon/pi-hole-yt-blocks.sh/main/pi-hole-yt-blocks.sh
