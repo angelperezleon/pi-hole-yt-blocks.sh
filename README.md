@@ -5,6 +5,7 @@
 pi-hole-yt-blocks.sh main purpose is to STOP all discovered/known yt Ads sub-domains used in the youtube videos you watch, the script will instantly set the block.  Will also restart/reload the db in use after its applied.
 
 # pi-hole-yt-blocks.sh for YouTube Ad blocking:
+
 - https://github.com/angelperezleon/pi-hole-yt-blocks.sh
 Remix of below discussion:
 - https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253/11?u=jacob.salmela
