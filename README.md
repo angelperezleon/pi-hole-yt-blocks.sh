@@ -20,6 +20,8 @@ Remix of below discussion:
  nano pi-hole-yt-blocks.sh
  #change path to which ever path you are using:
  path="/my/path/to/script"
+ #Run by:
+ sudo bash /my/path/to/script/pi-hole-yt-blocks.sh
 ```
 
 **Cron job**
